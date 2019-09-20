@@ -1,7 +1,6 @@
 # PY-Chuyen-Doi-Anh
 
 # UBUNTU 18.04 #
-ẢNH THƯỜNG - ẢNH X
 
 # I. NẾU CHƯA CÀI ĐẶT PYTHON VÀ OPENCV
 
@@ -12,4 +11,4 @@
 # II. NẾU ĐÃ CÓ PYTHON VÀ OPENCV
 
 - Clone file hoặc download file zip về máy
-- Giải nén và mở command line với lệnh: python ChuyenAnh.py img
+- Giải nén và mở command line với lệnh: python ChuyenAnh.py img_5.jpg
