@@ -15,4 +15,4 @@
 - Giải nén và mở command line với lệnh: python ChuyenAnh.py img_5.jpg
 
 
-@
+! dsf
