@@ -13,3 +13,6 @@
 
 - Clone file hoặc download file zip về máy
 - Giải nén và mở command line với lệnh: python ChuyenAnh.py img_5.jpg
+
+
+@
