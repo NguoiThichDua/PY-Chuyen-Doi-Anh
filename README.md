@@ -18,3 +18,7 @@
 
 # III. THAM KHẢO
 - https://minhng.info/tutorials/opencv-anh-nhi-phan.html
+
+
+# IV. GITHUB CÁ NHÂN
+- https://github.com/NguoiThichDua/PY-Chuyen-Doi-Anh
