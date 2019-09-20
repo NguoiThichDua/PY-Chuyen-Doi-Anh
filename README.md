@@ -14,7 +14,7 @@
 # II. NẾU ĐÃ CÓ PYTHON VÀ OPENCV
 
 - Clone file hoặc download file zip về máy
-- Giải nén và mở command line với lệnh: python ChuyenAnh.py img_5.jpg
+- Giải nén và mở command line với lệnh: python ChuyenAnh.py ten_anh.jpg
 
 # III. THAM KHẢO
 - https://minhng.info/tutorials/opencv-anh-nhi-phan.html
