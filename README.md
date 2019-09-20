@@ -1,8 +1,8 @@
 # PY-Chuyen-Doi-Anh
 
 # UBUNTU 18.04 #
-ẢNH THƯỜNG -> 
-
+ẢNH THƯỜNG
+-> 
 
 # I. NẾU CHƯA CÀI ĐẶT PYTHON VÀ OPENCV
 
