@@ -1,6 +1,9 @@
 # PY-Chuyen-Doi-Anh
 
 # UBUNTU 18.04 #
+# CHUYỂN ĐỔI ẢNH THƯỜNG ->  #
+
+I. NẾU CHƯA CÀI ĐẶT PYTHON VÀ OPENCV
 
 # 1. Cài đặt python tại trang chủ https://www.python.org/downloads/
 
