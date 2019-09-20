@@ -1,6 +1,6 @@
 # PY-Chuyen-Doi-Anh
 
-# UBUNTU 18.04 - CHUYỂN ĐỔ #
+# UBUNTU 18.04 #
 
 # I. NẾU CHƯA CÀI ĐẶT PYTHON VÀ OPENCV
 
