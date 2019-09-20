@@ -7,7 +7,6 @@ CHUYỂN ĐỔI ẢNH THƯỜNG ->
 
 1. Cài đặt python tại trang chủ https://www.python.org/downloads/
 
-2. Cài đặt openCV tại https://blog.vietanhdev.com/posts/2018-09-14-cai-dat-opencv-tren-ubuntu-18-04/
-   Với lỗi "ModuleNotFoundError: No module named 'cv2'": sử dụng câu lệnh pip install opencv-python tại thư mục hiện hành
+2. Cài đặt openCV tại https://blog.vietanhdev.com/posts/2018-09-14-cai-dat-opencv-tren-ubuntu-18-04/. Với lỗi "ModuleNotFoundError: No module named 'cv2'": sử dụng câu lệnh pip install opencv-python tại thư mục hiện hành
 
 
