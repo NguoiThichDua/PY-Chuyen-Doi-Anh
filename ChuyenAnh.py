@@ -10,18 +10,18 @@ def convert_to_binary(img_grayscale, thresh=100):
 
 
 if __name__ == "__main__":
-    assert len(sys.argv) == 2, '[USAGE] $ python ChuyenAnh.py img_5.jpg'
+    assert len(sys.argv) == 2, '[USAGE] $ python ChuyenAnh.py HongSon_1652480201050.jpg'
     input_image_path = sys.argv[1]
     img_grayscale = cv2.imread(input_image_path, cv2.IMREAD_GRAYSCALE)
 
-    # ghi lại ảnh xám
-    cv2.imwrite('grey_%s' % input_image_path, img_grayscale)
-    print('Ảnh xám đã được lưu với tên: grey_%s' % input_image_path)
+    # ghi lại ảnh xám từ ảnh RGB
+    cv2.imwrite('AnhXam_%s' % input_image_path, img_grayscale)
+    print('Ảnh xám đã được lưu với tên: AnhXam_%s' % input_image_path)
 
     # ghi lại ảnh nhị phân bằng hàm đã được định nghĩa
     img_binary = convert_to_binary(img_grayscale, thresh=100)
-    cv2.imwrite('binary_%s' % input_image_path, img_binary)
-    print('Ảnh nhị phân đã được lưu với tên: binary_%s' % input_image_path)
+    cv2.imwrite('AnhNhiPhan_%s' % input_image_path, img_binary)
+    print('Ảnh nhị phân đã được lưu với tên: AnhNhiPhan_%s' % input_image_path)
 
 # Ngưỡng nhị phân là ngưỡng "either or" đơn giản, ở đó các điểm ảnh là 255 hoặc 0
 # imread đọc ảnh
