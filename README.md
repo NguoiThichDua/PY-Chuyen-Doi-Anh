@@ -1,7 +1,7 @@
 # PY-Chuyen-Doi-Anh
 
 # UBUNTU 18.04 #
-CHUYỂN ĐỔI ẢNH THƯỜNG -> 
+ẢNH THƯỜNG -> 
 
 
 # I. NẾU CHƯA CÀI ĐẶT PYTHON VÀ OPENCV
