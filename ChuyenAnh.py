@@ -10,7 +10,7 @@ def convert_to_binary(img_grayscale, thresh=100):
 
 
 if __name__ == "__main__":
-    assert len(sys.argv) == 2, '[USAGE] $ python ChuyenAnh.py HongSon_1652480201050.jpg'
+    assert len(sys.argv) == 2, '[USAGE] $ python ChuyenAnh.py Son.jpg'
     input_image_path = sys.argv[1]
     img_grayscale = cv2.imread(input_image_path, cv2.IMREAD_GRAYSCALE)
 
