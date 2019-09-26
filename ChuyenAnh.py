@@ -1,4 +1,4 @@
-# goi thu vien cv2 vao
+# goi thu vien cv2
 import cv2
 
 # ham chuyen anh nhi phan tu anh xam
