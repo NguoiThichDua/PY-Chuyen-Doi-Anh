@@ -19,6 +19,7 @@ if __name__ == "__main__":
     # luu anh quan pho
     hsv_img = cv2.cvtColor(cv2.imread('Son.jpg',1), cv2.COLOR_BGR2HSV)
     cv2.imwrite('AnhQuangPho_Son.jpg', hsv_img)
+    print('Anh quang pho da duoc luu')
 
     # luu anh nhi phan tu anh xam
     img_binary = convert_to_binary(img_grayscale, thresh=100)
