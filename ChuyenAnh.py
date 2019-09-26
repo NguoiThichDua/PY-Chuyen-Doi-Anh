@@ -1,29 +1,26 @@
-# coding=utf-8
-import os, sys
+# goi thu vien cv2 vao
 import cv2
 
-# hàm trả về ảnh nhị phân dựa trên ảnh xám (paramater: ảnh xám , ngưỡng ảnh)
+# ham chuyen anh nhi phan tu anh xam
 def convert_to_binary(img_grayscale, thresh=100):
-    # cv2.threshold(hình ảnh, ngưỡng ảnh, giá trị tối đa, kiểu THRESH_BINARY)
+    # threshold(anh_xam, nguong_anh, maxvalue, type)
     thresh, img_binary = cv2.threshold(img_grayscale, thresh, maxval=255, type=cv2.THRESH_BINARY)
     return img_binary
 
 
 if __name__ == "__main__":
-    assert len(sys.argv) == 2, '[USAGE] $ python ChuyenAnh.py Son.jpg'
-    input_image_path = sys.argv[1]
-    img_grayscale = cv2.imread(input_image_path, cv2.IMREAD_GRAYSCALE)
+    # doc anh va chuyen thanh anh xam
+    img_grayscale = cv2.imread('Son.jpg', cv2.IMREAD_GRAYSCALE)
 
-    # ghi lại ảnh xám từ ảnh RGB
-    cv2.imwrite('AnhXam_%s' % input_image_path, img_grayscale)
-    print('Ảnh xám đã được lưu với tên: AnhXam_%s' % input_image_path)
+    # luu anh xam
+    cv2.imwrite('AnhXam_Son.jpg', img_grayscale)
+    print('Anh xam da duoc luu')
 
-    # ghi lại ảnh nhị phân bằng hàm đã được định nghĩa
+    # luu anh quan pho
+    hsv_img = cv2.cvtColor(cv2.imread('Son.jpg',1), cv2.COLOR_BGR2HSV)
+    cv2.imwrite('AnhQuangPho_Son.jpg', hsv_img)
+
+    # luu anh nhi phan tu anh xam
     img_binary = convert_to_binary(img_grayscale, thresh=100)
-    cv2.imwrite('AnhNhiPhan_%s' % input_image_path, img_binary)
-    print('Ảnh nhị phân đã được lưu với tên: AnhNhiPhan_%s' % input_image_path)
-
-# Ngưỡng nhị phân là ngưỡng "either or" đơn giản, ở đó các điểm ảnh là 255 hoặc 0
-# imread đọc ảnh
-# imwrite ghi lại ảnh
-# input_image_path: img_5.jpg
+    cv2.imwrite('AnhNhiPhan_Son.jpg', img_binary)
+    print('Anh nhi phan da duoc luu')
