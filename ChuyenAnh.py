@@ -16,12 +16,14 @@ if __name__ == "__main__":
     cv2.imwrite('AnhXam_Son.jpg', img_grayscale)
     print('Anh xam da duoc luu')
 
+    # luu anh nhi phan tu anh xam
+    img_binary = convert_to_binary(img_grayscale, 100)
+    cv2.imwrite('AnhNhiPhan_Son.jpg', img_binary)
+    print('Anh nhi phan da duoc luu')
+
     # luu anh quang pho
     #hsv_img = cv2.cvtColor(cv2.imread('Son.jpg',1), cv2.COLOR_BGR2HSV)
     #cv2.imwrite('AnhQuangPho_Son.jpg', hsv_img)
     #print('Anh quang pho da duoc luu')
 
-    # luu anh nhi phan tu anh xam
-    img_binary = convert_to_binary(img_grayscale, 100)
-    cv2.imwrite('AnhNhiPhan_Son.jpg', img_binary)
-    print('Anh nhi phan da duoc luu')
+    
