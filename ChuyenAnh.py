@@ -22,8 +22,8 @@ if __name__ == "__main__":
     print('Anh nhi phan da duoc luu')
 
     # luu anh quang pho
-    #hsv_img = cv2.cvtColor(cv2.imread('Son.jpg',1), cv2.COLOR_BGR2HSV)
-    #cv2.imwrite('AnhQuangPho_Son.jpg', hsv_img)
-    #print('Anh quang pho da duoc luu')
+    hsv_img = cv2.cvtColor(cv2.imread('Son.jpg',1), cv2.COLOR_BGR2HSV)
+    cv2.imwrite('AnhQuangPho_Son.jpg', hsv_img)
+    print('Anh quang pho da duoc luu')
 
     
